@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './ComputerParts.js';
+import './ComputerParts.css';
 import slugify from 'slugify';
 
 const USCurrencyFormat = new Intl.NumberFormat('en-US', {
@@ -42,7 +42,7 @@ class ComputerParts extends Component {
             );
         });
 
-        return {features}
+        return features
     }
 }
 

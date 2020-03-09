@@ -12,9 +12,10 @@ class Customize extends Component {
             <form className="main__form">
                 <h2>Customize your laptop</h2>
                 <ComputerParts  
-                features = {this.props.features} 
-                selectedFeatures = {this.props.selectedFeatures}
-                handleChange = {this.props.handleChange}/>
+                features={this.props.features} 
+                selectedFeatures={this.props.selectedFeatures}
+                handleChange={this.props.handleChange}/>
+                
             </form>
         )
     }

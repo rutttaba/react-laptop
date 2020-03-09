@@ -27,10 +27,9 @@ class CartItems extends Component {
         });
 
         return (
-            <section className="main__summary">
-                <h2>Your cart</h2>
+            <section>
                 {summary}
-                <Total sum={summary} /> 
+                <Total sum={this.props.items} /> 
             </section>
            
         )
